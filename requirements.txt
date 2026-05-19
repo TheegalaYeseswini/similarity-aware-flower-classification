@@ -1,0 +1,10 @@
+matplotlib
+numpy
+optuna
+pillow
+scikit-learn
+scipy
+seaborn
+torch
+torchvision
+tqdm
