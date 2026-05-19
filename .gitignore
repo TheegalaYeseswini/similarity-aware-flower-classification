@@ -2,6 +2,8 @@
 __pycache__/
 *.py[cod]
 *.pyo
+.pytest_cache/
+.mypy_cache/
 
 # Virtual environments
 .venv/
@@ -13,12 +15,15 @@ flowers102/
 checkpoints/
 checkpoints_adaptive_loss/
 checkpoints_similarity_loss/
+figures/
 similarity_matrix.npy
 *.pth
 *.pt
 *.npy
 *.npz
 *.log
+*.sqlite
+*.sqlite3
 
 # Jupyter
 .ipynb_checkpoints/
@@ -28,6 +33,11 @@ similarity_matrix.npy
 Thumbs.db
 .vscode/
 .idea/
+
+# Experiment trackers
+wandb/
+mlruns/
+lightning_logs/
 
 # Optional report outputs
 reports/*.pdf

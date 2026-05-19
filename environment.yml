@@ -1,0 +1,17 @@
+name: similarity-aware-flower-classification
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - matplotlib
+      - numpy
+      - optuna
+      - pillow
+      - scikit-learn
+      - scipy
+      - seaborn
+      - torch
+      - torchvision
+      - tqdm
