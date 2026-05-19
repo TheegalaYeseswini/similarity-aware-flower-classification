@@ -367,22 +367,22 @@ The most important research conclusion is not only that the final method perform
 ## Visualizations
 
 ### Cross Entropy Confusion Matrix
-![Cross Entropy Confusion Matrix](assets/figures/ce_confusion_matrix.png)
+![Cross Entropy Confusion Matrix](figures/ce_confusion_matrix.png)
 
 ### Entropy-Aware Training Curves
-![Entropy-Aware Training Curves](assets/figures/adaptive_training_curves.png)
+![Entropy-Aware Training Curves](figures/adaptive_training_curves.png)
 
 ### Entropy-Aware Confusion Matrix
-![Entropy-Aware Confusion Matrix](assets/figures/adaptive_confusion_matrix.png)
+![Entropy-Aware Confusion Matrix](figures/adaptive_confusion_matrix.png)
 
 ### Similarity-Aware Training Curves
-![Similarity-Aware Training Curves](assets/figures/similarity_training_curves.png)
+![Similarity-Aware Training Curves](figures/similarity_training_curves.png)
 
 ### Similarity-Aware Confusion Matrix
-![Similarity-Aware Confusion Matrix](assets/figures/similarity_confusion_matrix.png)
+![Similarity-Aware Confusion Matrix](figures/similarity_confusion_matrix.png)
 
 ### Similarity Matrix Heatmap
-![Similarity Matrix Heatmap](assets/figures/similarity_matrix_heatmap.png)
+![Similarity Matrix Heatmap](figures/similarity_matrix_heatmap.png)
 
 ### Suggested Future Visualizations
 - Grad-CAM for class-discriminative localization
