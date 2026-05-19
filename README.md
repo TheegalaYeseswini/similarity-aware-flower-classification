@@ -325,11 +325,11 @@ python train_similarity_aware_loss.py --profile full
 
 ### Main Experimental Comparison
 
-| Method | Validation Accuracy | Test Accuracy | Macro Precision | Macro Recall | Macro F1 | Weighted F1 |
-|---|---:|---:|---:|---:|---:|---:|
-| Cross Entropy baseline | Not archived | 88.03% | 86.43% | 89.41% | 87.24% | 87.97% |
-| Adaptive entropy-aware loss | 94.12% | 90.40% | 89.28% | 92.12% | 90.17% | 90.36% |
-| Similarity-aware adaptive loss | 92.75% | 90.45% | 90.27% | 91.85% | 90.49% | 90.43% |
+| Method | Validation Accuracy | Test Accuracy | Macro F1 | Weighted F1 |
+|---|---:|---:|---:|---:|
+| Cross Entropy baseline | Not archived in saved baseline artifact | 88.03% | 87.24% | 87.97% |
+| Adaptive entropy-aware loss | 94.12% | 90.40% | 90.17% | 90.36% |
+| Similarity-aware adaptive loss | 92.75% | 90.45% | 90.49% | 90.43% |
 
 ### Interpretation
 - The similarity-aware method improves test accuracy by **+2.42 points** over the CE baseline.
@@ -475,6 +475,29 @@ Additional reproducibility improvements that are still planned:
 ├── train_adaptive_loss.py
 └── train_similarity_aware_loss.py
 ```
+
+Local-only folders such as dataset copies, checkpoints, logs, and caches are intentionally excluded from version control for a cleaner public release.
+
+## Recommended Pre-Upload Cleanup
+Before pushing publicly, keep the repository lightweight and research-focused:
+
+### Exclude from Git
+- `flowers102/`
+- `checkpoints/`
+- `checkpoints_adaptive_loss/`
+- `checkpoints_similarity_loss/`
+- `__pycache__/`
+- large `.pth` files
+- intermediate `.npy` artifacts used only for local experimentation
+- training logs and temporary outputs
+
+### Keep in Git
+- core training scripts
+- curated figures
+- README
+- license
+- requirements
+- selected report assets and publication-ready documentation
 
 ## Future Work
 - standalone focal-loss baseline
