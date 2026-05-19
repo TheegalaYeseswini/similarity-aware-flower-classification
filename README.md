@@ -250,26 +250,6 @@ The similarity-aware pipeline saves:
 
 Local-only folders such as dataset copies, checkpoints, logs, and caches are intentionally excluded from version control for a cleaner public release.
 
-## Recommended Pre-Upload Cleanup
-Before pushing publicly, keep the repository lightweight and research-focused:
-
-### Exclude from Git
-- `flowers102/`
-- `checkpoints/`
-- `checkpoints_adaptive_loss/`
-- `checkpoints_similarity_loss/`
-- `__pycache__/`
-- large `.pth` files
-- intermediate `.npy` artifacts used only for local experimentation
-- training logs and temporary outputs
-
-### Keep in Git
-- core training scripts
-- curated figures
-- README
-- license
-- requirements
-- selected report assets and publication-ready documentation
 
 ## Future Work
 - feature-embedding-based similarity estimation
