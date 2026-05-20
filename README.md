@@ -327,7 +327,7 @@ python train_similarity_aware_loss.py --profile full
 
 | Method | Validation Accuracy | Test Accuracy | Macro F1 | Weighted F1 |
 |---|---:|---:|---:|---:|
-| Cross Entropy baseline | Not archived in saved baseline artifact | 88.03% | 87.24% | 87.97% |
+| Cross Entropy baseline | 91.27 | 88.03% | 87.24% | 87.97% |
 | Adaptive entropy-aware loss | 94.12% | 90.40% | 90.17% | 90.36% |
 | Similarity-aware adaptive loss | 92.75% | 90.45% | 90.49% | 90.43% |
 
